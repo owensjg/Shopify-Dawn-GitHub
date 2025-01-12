@@ -92,10 +92,8 @@
     .header {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
-      max-width: 1920px !important;
-    }
-    
-  }
+      max-width: {{ section.settings.header_width }}px !important;
+    }}
 {%- endstyle -%}
 
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
