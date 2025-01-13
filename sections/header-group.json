@@ -15,7 +15,8 @@
       "type": "header",
       "settings": {
         "header_width": 1920,
-        "header-height": 150,
+        "header_height": 150,
+        "bgimage": "shopify://shop_images/Header_1920_x_150.svg",
         "logo_position": "middle-center",
         "menu": "main-menu",
         "menu_type_desktop": "drawer",
