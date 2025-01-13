@@ -94,7 +94,7 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
       max-width: {{ section.settings.header_width }}px !important;
       height: {{ section.settings.header_height }}px !important;
-      background-image: {{ section.settings.bgimage | img_url}};
+      background-image: url({{ section.settings.bgimage | img_url }});
     }}
 {%- endstyle -%}
 
