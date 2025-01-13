@@ -76,6 +76,9 @@
   .header {
     padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 3rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 3rem;
      background-image: url({{ section.settings.bgimage | image_url }});
+       background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center
   
   }
 
@@ -97,7 +100,8 @@
       max-width: {{ section.settings.header_width }}px !important;
       height: {{ section.settings.header_height }}px !important;
       background-repeat: no-repeat;
-    background-size: cover;
+      background-size: cover;
+      background-position: center
       
      
     }}
